@@ -19,28 +19,25 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: docs-site
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - uses: ruby/setup-ruby@v1
         with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: docs-site/package-lock.json
+          ruby-version: '3.3'
+          bundler-cache: true
+          working-directory: docs-site
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build docs site
-        run: npm run build
+      - name: Build Jekyll site
+        run: bundle exec jekyll build --baseurl /TradeFlow
+        working-directory: docs-site
+        env:
+          JEKYLL_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs-site/build
+          path: docs-site/_site
 
   deploy:
     environment:

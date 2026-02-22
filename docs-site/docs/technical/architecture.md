@@ -1,6 +1,7 @@
 ---
-sidebar_position: 1
 title: Architecture
+nav_order: 1
+parent: Technical Reference
 ---
 
 # Architecture Overview

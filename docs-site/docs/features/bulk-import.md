@@ -1,13 +1,14 @@
 ---
-sidebar_position: 5
 title: Bulk Import
+nav_order: 5
+parent: Features
 ---
 
 # Bulk Import
 
 The Bulk Import page lets you import trades from broker CSV exports and restore TradeFlow backup files. It supports two brokers out of the box and provides tools for handling scale-out trades.
 
-![Bulk Import](/img/bulkimport.png)
+![Bulk Import]({{ site.baseurl }}/assets/img/bulkimport.png)
 
 ## Supported Brokers
 
@@ -75,4 +76,4 @@ The restore uses a **merge-only** mode:
 - Existing records (matching by ID) are skipped — no duplicates, no overwrites
 - Chart images embedded in the backup are restored to the correct trades
 
-See the [Export & Backup Guide](../guides/export-backup) for details on creating backups.
+See the [Export & Backup Guide]({{ site.baseurl }}/docs/guides/export-backup) for details on creating backups.

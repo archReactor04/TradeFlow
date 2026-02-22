@@ -1,6 +1,7 @@
 ---
-sidebar_position: 1
 title: Importing Broker CSVs
+nav_order: 1
+parent: Guides
 ---
 
 # Importing Trades from Broker CSVs
@@ -55,7 +56,7 @@ TradeFlow performs additional processing:
 
 ## Step 5: Select an Account
 
-Use the **Import to Account** dropdown to assign all imported trades to a specific trading account. If you haven't created accounts yet, go to the [Accounts page](../features/accounts) first.
+Use the **Import to Account** dropdown to assign all imported trades to a specific trading account. If you haven't created accounts yet, go to the [Accounts page]({{ site.baseurl }}/docs/features/accounts) first.
 
 ## Step 6: Handle Scale-Outs
 
@@ -68,9 +69,9 @@ If you scaled out of positions, you may see multiple rows for what was logically
    - Multiple **take-profit levels** — each partial exit becomes a TP entry with price, quantity, and date
    - Combined P&L from all partials
 
-:::tip
-Only merge trades that are truly the same position. Don't merge separate trades in the same symbol that happened at different times.
-:::
+{: .tip }
+> **Tip**
+> Only merge trades that are truly the same position. Don't merge separate trades in the same symbol that happened at different times.
 
 ## Step 7: Review and Import
 

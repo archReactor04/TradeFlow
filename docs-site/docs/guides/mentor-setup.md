@@ -1,6 +1,7 @@
 ---
-sidebar_position: 3
 title: Mentor Setup Guide
+nav_order: 3
+parent: Guides
 ---
 
 # Setting Up Mentor Mode

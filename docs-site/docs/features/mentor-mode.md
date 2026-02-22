@@ -1,13 +1,14 @@
 ---
-sidebar_position: 6
 title: Mentor Mode
+nav_order: 6
+parent: Features
 ---
 
 # Mentor Mode
 
 Mentor Mode is designed for trading coaches and mentors who review their students' trades. It provides a completely isolated data environment for each student, separate from the mentor's own trading journal.
 
-![Mentor Mode](/img/mentor.png)
+![Mentor Mode]({{ site.baseurl }}/assets/img/mentor.png)
 
 ## Key Design Principles
 

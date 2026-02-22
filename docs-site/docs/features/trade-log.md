@@ -1,13 +1,14 @@
 ---
-sidebar_position: 2
 title: Trade Log
+nav_order: 2
+parent: Features
 ---
 
 # Trade Log
 
 The Trade Log is the core of TradeFlow — a full-featured trade journal where you record, organize, filter, and analyze every trade.
 
-![Trade Log](/img/tradelog.png)
+![Trade Log]({{ site.baseurl }}/assets/img/tradelog.png)
 
 ## Adding a Trade
 
@@ -87,7 +88,7 @@ Click any trade row to expand an accordion showing detailed information:
 - Take-profit levels (price, quantity, date)
 - Chart image thumbnails (click to view full-size)
 
-![Trade Detail](/img/tradelog-detail.png)
+![Trade Detail]({{ site.baseurl }}/assets/img/tradelog-detail.png)
 
 ## Selecting Trades
 

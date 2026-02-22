@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
 title: Data Storage
+nav_order: 2
+parent: Technical Reference
 ---
 
 # Data Storage
@@ -149,4 +150,4 @@ Dexie handles schema versioning automatically. Each `db.version(n)` call can inc
 
 ## Backup Format
 
-See the [Export & Backup Guide](../guides/export-backup) for details on the ZIP snapshot format used for data portability.
+See the [Export & Backup Guide]({{ site.baseurl }}/docs/guides/export-backup) for details on the ZIP snapshot format used for data portability.

@@ -1,6 +1,7 @@
 ---
-sidebar_position: 1
 title: Installation
+nav_order: 1
+parent: Getting Started
 ---
 
 # Installation
@@ -76,11 +77,11 @@ TradeFlow works in all modern browsers that support IndexedDB:
 - Safari
 - Edge
 
-:::note
-TradeFlow uses IndexedDB for data persistence. All your trade data, accounts, strategies, and settings are stored locally in the browser. Clearing browser data will remove your TradeFlow data — use the [Export & Backup](../guides/export-backup) feature to protect your data.
-:::
+{: .note }
+> **Note**
+> TradeFlow uses IndexedDB for data persistence. All your trade data, accounts, strategies, and settings are stored locally in the browser. Clearing browser data will remove your TradeFlow data — use the [Export & Backup]({{ site.baseurl }}/docs/guides/export-backup) feature to protect your data.
 
 ## Next Steps
 
-- [Desktop App](./desktop-app) — Package TradeFlow as a standalone desktop application
-- [Configuration](./configuration) — Set up the AI assistant and other settings
+- [Desktop App]({{ site.baseurl }}/docs/desktop-app) — Package TradeFlow as a standalone desktop application
+- [Configuration]({{ site.baseurl }}/docs/configuration) — Set up the AI assistant and other settings

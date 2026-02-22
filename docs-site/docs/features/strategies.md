@@ -1,13 +1,14 @@
 ---
-sidebar_position: 4
 title: Strategies
+nav_order: 4
+parent: Features
 ---
 
 # Strategies
 
 The Strategies page allows you to define and manage your trading strategies. Each strategy represents a distinct trading approach or setup that you use.
 
-![Strategies](/img/strategies.png)
+![Strategies]({{ site.baseurl }}/assets/img/strategies.png)
 
 ## Managing Strategies
 
@@ -22,9 +23,9 @@ The Strategies page allows you to define and manage your trading strategies. Eac
 - Click the edit icon to rename a strategy
 - Click the delete icon to remove a strategy (with confirmation)
 
-:::warning
-Deleting a strategy does not remove trades that reference it. Those trades will simply have no strategy assigned.
-:::
+{: .warning }
+> **Warning**
+> Deleting a strategy does not remove trades that reference it. Those trades will simply have no strategy assigned.
 
 ## Strategy Analytics
 
