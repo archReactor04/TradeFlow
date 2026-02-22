@@ -6,7 +6,7 @@ parent: Features
 
 # Bulk Import
 
-The Bulk Import page lets you import trades from broker CSV exports and restore TradeFlow backup files. It supports two brokers out of the box and provides tools for handling scale-out trades.
+The Bulk Import page lets you import trades from broker CSV exports. It supports two brokers out of the box and provides tools for handling scale-out trades. A collapsible **Restore from Backup** section at the bottom allows restoring `.zip` database snapshots.
 
 ![Bulk Import]({{ site.baseurl }}/assets/img/bulkimport.png)
 
@@ -25,7 +25,7 @@ Tradovate CSV exports contain individual order fills rather than complete trades
 3. Calculate P&L using hardcoded **futures contract multipliers** (ES, NQ, YM, CL, GC, etc.)
 4. Compute trade duration from first entry fill to last exit fill
 
-## Import Workflow
+## Broker CSV Import
 
 ### 1. Select Broker
 
@@ -65,11 +65,12 @@ Click **Import** to save the trades to your database. Trades are added to the `t
 
 ## Restore from Backup
 
-At the top of the Bulk Import page, there is a **Restore Backup** section for importing `.zip` database snapshots:
+At the **bottom** of the Bulk Import page there is a **Restore from Backup** button. Clicking it expands an accordion section for importing `.zip` database snapshots:
 
-1. Select a `.zip` file created by TradeFlow's export feature
-2. The manifest is displayed showing trade count, accounts, and strategies
-3. Click **Import** to merge the backup into your database
+1. Click **Restore from Backup** to expand the section
+2. Drop or browse for a `.zip` file created by TradeFlow's export feature
+3. The manifest is displayed showing trade count, accounts, and strategies
+4. Click **Import** to merge the backup into your database
 
 The restore uses a **merge-only** mode:
 - New trades, accounts, and strategies are added
