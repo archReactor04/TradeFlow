@@ -12,7 +12,7 @@
         "typecheck": "tsc -p ./jsconfig.json",
         "preview": "vite preview",
         "electron:dev": "concurrently -k \"vite\" \"wait-on http://localhost:5173 && NODE_ENV=development electron .\"",
-        "electron:build": "vite build && electron-builder"
+        "electron:build": "vite build && electron-builder --publish never"
     },
     "build": {
         "appId": "com.tradeflow.app",
