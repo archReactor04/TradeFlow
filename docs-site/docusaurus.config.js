@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'TradeFlow',
   tagline: 'Your personal trading journal with AI-powered insights',
-  favicon: 'img/favicon.svg',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true,
@@ -64,7 +64,7 @@ const config = {
         title: 'TradeFlow',
         logo: {
           alt: 'TradeFlow Logo',
-          src: 'img/favicon.svg',
+          src: 'img/favicon.png',
         },
         items: [
           {
