@@ -56,7 +56,7 @@ All TradeFlow data is stored in **IndexedDB** under the database name `TradeFlow
 
 {: .warning }
 > **Warning**
-> Clearing your browser's site data will delete your TradeFlow database. Always maintain backups using the [Export & Backup]({{ site.baseurl }}/docs/guides/export-backup) feature.
+> Clearing your browser's site data will delete your TradeFlow database. Always maintain backups using the [Export & Backup]({{ site.baseurl }}/guides/export-backup) feature.
 
 ## Seed Data
 

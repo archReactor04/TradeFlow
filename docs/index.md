@@ -9,7 +9,7 @@ nav_order: 0
 Your personal trading journal with AI-powered insights — built for serious traders who value privacy and performance.
 {: .fs-6 .fw-300 }
 
-[Get Started]({{ site.baseurl }}/docs/intro){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Get Started]({{ site.baseurl }}/intro){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View on GitHub](https://github.com/archReactor04/TradeFlow){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -36,7 +36,7 @@ TradeFlow is a **local-first** trading journal that runs entirely in your browse
 
 | Section | Description |
 |:--------|:------------|
-| [Getting Started]({{ site.baseurl }}/docs/getting-started/installation) | Installation, desktop app setup, configuration |
-| [Features]({{ site.baseurl }}/docs/features/dashboard) | Dashboard, Trade Log, Accounts, Strategies, and more |
-| [Guides]({{ site.baseurl }}/docs/guides/csv-import) | Step-by-step CSV import, export/backup, mentor setup |
-| [Technical Reference]({{ site.baseurl }}/docs/technical/architecture) | Architecture, data storage, Electron internals |
+| [Getting Started]({{ site.baseurl }}/getting-started/installation) | Installation, desktop app setup, configuration |
+| [Features]({{ site.baseurl }}/features/dashboard) | Dashboard, Trade Log, Accounts, Strategies, and more |
+| [Guides]({{ site.baseurl }}/guides/csv-import) | Step-by-step CSV import, export/backup, mentor setup |
+| [Technical Reference]({{ site.baseurl }}/technical/architecture) | Architecture, data storage, Electron internals |

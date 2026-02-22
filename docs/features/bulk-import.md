@@ -76,4 +76,4 @@ The restore uses a **merge-only** mode:
 - Existing records (matching by ID) are skipped — no duplicates, no overwrites
 - Chart images embedded in the backup are restored to the correct trades
 
-See the [Export & Backup Guide]({{ site.baseurl }}/docs/guides/export-backup) for details on creating backups.
+See the [Export & Backup Guide]({{ site.baseurl }}/guides/export-backup) for details on creating backups.

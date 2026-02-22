@@ -44,6 +44,6 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Next Steps
 
-- [Installation Guide]({{ site.baseurl }}/docs/getting-started/installation) — Detailed setup instructions
-- [Features Overview]({{ site.baseurl }}/docs/features/dashboard) — Explore all features
-- [Desktop App]({{ site.baseurl }}/docs/getting-started/desktop-app) — Build a standalone app for macOS/Windows/Linux
+- [Installation Guide]({{ site.baseurl }}/getting-started/installation) — Detailed setup instructions
+- [Features Overview]({{ site.baseurl }}/features/dashboard) — Explore all features
+- [Desktop App]({{ site.baseurl }}/getting-started/desktop-app) — Build a standalone app for macOS/Windows/Linux
