@@ -4,7 +4,11 @@ theme: just-the-docs
 
 url: https://archreactor04.github.io/TradeFlow
 
-color_scheme: dark
-
 aux_links:
   GitHub Repository: https://github.com/archReactor04/TradeFlow
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
