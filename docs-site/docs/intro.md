@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
-slug: /intro
 title: Welcome to TradeFlow
+nav_order: 1
 ---
 
 # TradeFlow
@@ -39,12 +38,12 @@ Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ## Screenshots
 
-![Dashboard](/img/dashboard.png)
+![Dashboard]({{ site.baseurl }}/assets/img/dashboard.png)
 
 *The Dashboard provides an at-a-glance view of your trading performance with KPI cards, a calendar heatmap, and interactive charts.*
 
 ## Next Steps
 
-- [Installation Guide](./getting-started/installation) — Detailed setup instructions
-- [Features Overview](./features/dashboard) — Explore all features
-- [Desktop App](./getting-started/desktop-app) — Build a standalone app for macOS/Windows/Linux
+- [Installation Guide]({{ site.baseurl }}/docs/getting-started/installation) — Detailed setup instructions
+- [Features Overview]({{ site.baseurl }}/docs/features/dashboard) — Explore all features
+- [Desktop App]({{ site.baseurl }}/docs/getting-started/desktop-app) — Build a standalone app for macOS/Windows/Linux

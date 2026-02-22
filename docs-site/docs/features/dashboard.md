@@ -1,13 +1,14 @@
 ---
-sidebar_position: 1
 title: Dashboard
+nav_order: 1
+parent: Features
 ---
 
 # Dashboard
 
 The Dashboard is TradeFlow's home screen, providing an at-a-glance overview of your trading performance through KPI cards, interactive charts, and a calendar heatmap.
 
-![Dashboard](/img/dashboard.png)
+![Dashboard]({{ site.baseurl }}/assets/img/dashboard.png)
 
 ## KPI Cards
 
@@ -30,7 +31,7 @@ The calendar displays a month-at-a-time view with P&L values shown directly on e
 - **3-letter day labels** (Mon, Tue, Wed...) appear as column headers
 - P&L amounts are displayed inline on each day box for quick scanning
 
-![Calendar Heatmap](/img/dashboard-calendar.png)
+![Calendar Heatmap]({{ site.baseurl }}/assets/img/dashboard-calendar.png)
 
 ## Charts
 

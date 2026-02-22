@@ -1,6 +1,7 @@
 ---
-sidebar_position: 3
 title: Configuration
+nav_order: 3
+parent: Getting Started
 ---
 
 # Configuration
@@ -53,9 +54,9 @@ All TradeFlow data is stored in **IndexedDB** under the database name `TradeFlow
 - **Firefox**: `~/.mozilla/firefox/<profile>/storage/default/`
 - **Electron App**: Inside the app's user data directory
 
-:::warning
-Clearing your browser's site data will delete your TradeFlow database. Always maintain backups using the [Export & Backup](../guides/export-backup) feature.
-:::
+{: .warning }
+> **Warning**
+> Clearing your browser's site data will delete your TradeFlow database. Always maintain backups using the [Export & Backup]({{ site.baseurl }}/docs/guides/export-backup) feature.
 
 ## Seed Data
 

@@ -1,13 +1,14 @@
 ---
-sidebar_position: 7
 title: Jesse AI
+nav_order: 7
+parent: Features
 ---
 
 # Jesse AI
 
 Jesse AI is TradeFlow's built-in trading coach — an AI-powered chat assistant that analyzes your trading journal and chart images to provide personalized insights and recommendations.
 
-![Jesse AI](/img/aichat.png)
+![Jesse AI]({{ site.baseurl }}/assets/img/aichat.png)
 
 ## Who is Jesse?
 

@@ -1,13 +1,14 @@
 ---
-sidebar_position: 3
 title: Accounts
+nav_order: 3
+parent: Features
 ---
 
 # Accounts
 
 The Accounts page lets you manage your trading accounts. Each account represents a separate trading account (e.g., funded accounts, paper trading accounts, personal accounts).
 
-![Accounts](/img/accounts.png)
+![Accounts]({{ site.baseurl }}/assets/img/accounts.png)
 
 ## Managing Accounts
 
@@ -25,9 +26,9 @@ Click the edit icon on any account card to modify its name.
 
 Click the delete icon on an account card. A confirmation dialog will appear.
 
-:::warning
-Deleting an account does not delete trades associated with it. Those trades will simply have no account assigned.
-:::
+{: .warning }
+> **Warning**
+> Deleting an account does not delete trades associated with it. Those trades will simply have no account assigned.
 
 ## Account Analytics
 

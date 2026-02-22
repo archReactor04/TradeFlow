@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
 title: Desktop App
+nav_order: 2
+parent: Getting Started
 ---
 
 # Desktop Application

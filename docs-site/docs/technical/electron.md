@@ -1,6 +1,7 @@
 ---
-sidebar_position: 3
 title: Electron Desktop App
+nav_order: 3
+parent: Technical Reference
 ---
 
 # Electron Desktop App
@@ -106,7 +107,7 @@ The Electron app uses the same IndexedDB storage mechanism, but under a differen
 - **Web version**: origin is `http://localhost:5173`
 - **Electron version**: origin is `file://` (managed by Chromium)
 
-This means the two versions maintain **separate databases**. Data created in the browser won't appear in the Electron app and vice versa. Use the [Export & Backup](../guides/export-backup) feature to transfer data between them.
+This means the two versions maintain **separate databases**. Data created in the browser won't appear in the Electron app and vice versa. Use the [Export & Backup]({{ site.baseurl }}/docs/guides/export-backup) feature to transfer data between them.
 
 ## Adding a Custom App Icon
 

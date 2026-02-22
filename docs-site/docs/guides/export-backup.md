@@ -1,6 +1,7 @@
 ---
-sidebar_position: 2
 title: Export & Backup
+nav_order: 2
+parent: Guides
 ---
 
 # Exporting and Backing Up Your Data
