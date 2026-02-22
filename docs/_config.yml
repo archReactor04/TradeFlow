@@ -5,7 +5,7 @@ url: https://archreactor04.github.io
 
 remote_theme: just-the-docs/just-the-docs@v0.10.0
 
-color_scheme: dark
+color_scheme: tradeflow
 
 search_enabled: true
 search.heading_level: 3
