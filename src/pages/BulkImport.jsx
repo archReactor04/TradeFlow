@@ -12,6 +12,7 @@ import { BROKERS, getBroker } from '@/lib/broker-parsers';
 import { formatDuration, computeDurationSeconds } from '@/lib/trade-utils';
 import { Upload, FileSpreadsheet, CheckCircle2, AlertTriangle, ChevronDown, ChevronRight, Layers, ArrowUpRight, ArrowDownRight, Merge, Undo2, Archive, Calendar } from 'lucide-react';
 import { previewZip, importFromZip } from '@/lib/import-utils';
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 
 function RestoreBackup() {
   const [dragOver, setDragOver] = useState(false);
@@ -349,17 +350,16 @@ export default function BulkImport() {
   };
 
   const mergedCount = trades.filter((t) => t._merged).length;
+  const [backupOpen, setBackupOpen] = useState(false);
 
   return (
     <div className="p-6 space-y-6">
       <div>
         <h2 className="text-lg font-semibold">Bulk Import</h2>
-        <p className="text-sm text-muted-foreground">Import trades from a backup or broker CSV export</p>
+        <p className="text-sm text-muted-foreground">Import trades from a broker CSV export</p>
       </div>
 
-      <RestoreBackup />
-
-      <div className="border-t pt-4">
+      <div>
         <h3 className="text-sm font-semibold mb-3">Broker CSV Import</h3>
       </div>
 
@@ -592,6 +592,25 @@ export default function BulkImport() {
           </CardContent>
         </Card>
       )}
+
+      <div className="border-t pt-4">
+        <Collapsible open={backupOpen} onOpenChange={setBackupOpen}>
+          <CollapsibleTrigger asChild>
+            <Button variant="outline" className="w-full justify-between text-sm">
+              <span className="flex items-center gap-2">
+                <Archive className="h-4 w-4" />
+                Restore from Backup
+              </span>
+              {backupOpen
+                ? <ChevronDown className="h-4 w-4 text-muted-foreground" />
+                : <ChevronRight className="h-4 w-4 text-muted-foreground" />}
+            </Button>
+          </CollapsibleTrigger>
+          <CollapsibleContent className="mt-3">
+            <RestoreBackup />
+          </CollapsibleContent>
+        </Collapsible>
+      </div>
     </div>
   );
 }
