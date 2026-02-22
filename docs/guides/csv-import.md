@@ -56,7 +56,7 @@ TradeFlow performs additional processing:
 
 ## Step 5: Select an Account
 
-Use the **Import to Account** dropdown to assign all imported trades to a specific trading account. If you haven't created accounts yet, go to the [Accounts page]({{ site.baseurl }}/docs/features/accounts) first.
+Use the **Import to Account** dropdown to assign all imported trades to a specific trading account. If you haven't created accounts yet, go to the [Accounts page]({{ site.baseurl }}/features/accounts) first.
 
 ## Step 6: Handle Scale-Outs
 
