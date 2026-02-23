@@ -34,60 +34,6 @@ nav_exclude: true
 
 **TradeFlow** is a privacy-first trading journal that runs entirely in your browser. All data stays on your device using IndexedDB — no cloud accounts, no subscriptions, no data leaving your machine. Available as a web app or native desktop app via Electron.
 
----
-
-<p class="section-heading">Features</p>
-
-<div class="feature-grid">
-  <div class="feature-card">
-    <span class="card-icon">📊</span>
-    <h3>Dashboard</h3>
-    <p>Real-time P&amp;L, win rate, profit factor, calendar heatmap, and interactive performance charts.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">📋</span>
-    <h3>Trade Log</h3>
-    <p>Full CRUD with inline editing, multi-column filtering, tagging, and bulk operations including delete.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">🏦</span>
-    <h3>Multiple Accounts</h3>
-    <p>Track different brokers or strategies independently with per-account analytics and filtering.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">🎯</span>
-    <h3>Strategies</h3>
-    <p>Tag trades by your custom strategies and compare win rate, P&amp;L, and consistency across them.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">📥</span>
-    <h3>Bulk Import</h3>
-    <p>Import broker CSVs from TopstepX and Tradovate. Merge scale-out fills into single trades with take-profit levels.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">🤖</span>
-    <h3>AI Mentor Mode</h3>
-    <p>Built-in tools for trading mentors to manage students, review trades, and provide structured coaching.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">🧠</span>
-    <h3>Jesse AI</h3>
-    <p>Integrated AI chat powered by OpenAI that analyzes your journal data and chart images for actionable insights.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">💾</span>
-    <h3>Export &amp; Backup</h3>
-    <p>CSV export and full ZIP backup with one-click restore. Your data is always portable.</p>
-  </div>
-  <div class="feature-card">
-    <span class="card-icon">🖥️</span>
-    <h3>Desktop App</h3>
-    <p>Native macOS, Windows, and Linux application via Electron. Runs fully offline.</p>
-  </div>
-</div>
-
----
-
 <p class="section-heading">Documentation</p>
 
 <div class="section-grid">
@@ -124,18 +70,3 @@ nav_exclude: true
     <div class="card-footer">Read More →</div>
   </a>
 </div>
-
----
-
-## Quick Start
-
-```bash
-git clone https://github.com/archReactor04/TradeFlow.git
-cd TradeFlow
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-![Dashboard]({{ site.baseurl }}/assets/img/dashboard.png)
