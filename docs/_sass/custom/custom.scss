@@ -109,48 +109,73 @@
   line-height: 1.55;
 }
 
-// ── Section nav cards ──────────────────────────────────────────────────────
+// ── Doks-style section nav cards (dark theme) ─────────────────────────────
 .section-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1rem;
   margin: 1.25rem 0 1.5rem;
 }
 
 .section-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: #16132a;
   border: 1px solid #2a2540;
-  border-radius: 10px;
-  padding: 1.25rem 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
   text-decoration: none !important;
   transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease;
 }
 
 .section-card:hover {
-  border-color: #8b5cf6;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(124,58,237,.15);
+  border-color: #7c3aed;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(124,58,237,.2);
+  text-decoration: none !important;
+}
+
+.section-card .card-body {
+  padding: 1.4rem 1.5rem;
+  flex: 1;
 }
 
 .section-card .card-icon {
   display: block;
-  font-size: 1.4rem;
-  margin-bottom: 0.45rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.65rem;
 }
 
 .section-card h3 {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  color: #c4b5fd;
-  margin: 0 0 0.2rem;
+  color: #f0ecff;
+  margin: 0 0 0.4rem;
 }
 
 .section-card p {
-  font-size: 0.82rem;
+  font-size: 0.875rem;
   color: #a5a0b8;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.55;
+}
+
+.section-card .card-footer {
+  padding: 0.7rem 1.5rem;
+  border-top: 1px solid #2a2540;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #a78bfa;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: color .15s ease;
+}
+
+.section-card:hover .card-footer {
+  color: #c4b5fd;
 }
 
 // ── Section divider heading ────────────────────────────────────────────────
@@ -161,6 +186,59 @@
   margin: 2.5rem 0 0.6rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #2a2540;
+}
+
+// ── Section hero band (Doks-style, dark) ──────────────────────────────────
+.section-hero {
+  background: linear-gradient(135deg, #1a1726 0%, #1e1440 100%);
+  border: 1px solid #2a2540;
+  border-radius: 10px;
+  padding: 2.5rem 2rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-hero h1 {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #f0ecff;
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.section-hero .hero-desc {
+  font-size: 1rem;
+  color: #a5a0b8;
+  margin: 0 0 1.5rem;
+  line-height: 1.65;
+  max-width: 560px;
+}
+
+.section-hero .hero-nav {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-hero .hero-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #1f1b33;
+  border: 1px solid #3d3560;
+  border-radius: 99px;
+  padding: 0.4rem 1rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #c4b5fd;
+  text-decoration: none !important;
+  transition: background-color .15s, border-color .15s, color .15s;
+}
+
+.section-hero .hero-nav a:hover {
+  background: rgba(124,58,237,.2);
+  border-color: #7c3aed;
+  color: #e9d8fd;
 }
 
 // ── Buttons ────────────────────────────────────────────────────────────────
