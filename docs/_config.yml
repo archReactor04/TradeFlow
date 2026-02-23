@@ -4,8 +4,13 @@ theme: just-the-docs
 
 url: https://archreactor04.github.io/TradeFlow
 
+color_scheme: tradeflow
+
 aux_links:
-  GitHub Repository: https://github.com/archReactor04/TradeFlow
+  GitHub: https://github.com/archReactor04/TradeFlow
+
+mermaid:
+  version: "10.9.3"
 
 defaults:
   - scope:
