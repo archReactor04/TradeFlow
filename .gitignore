@@ -39,3 +39,20 @@ release/
 
 # Build iconset intermediates
 build/icon.iconset/
+
+# Source code – kept local only, not tracked in GitHub
+src/
+electron/
+public/
+build/
+components.json
+eslint.config.js
+icon-1024.png
+index.html
+jsconfig.json
+package.json
+package-lock.json
+packages.json
+postcss.config.js
+tailwind.config.js
+vite.config.js
