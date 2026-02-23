@@ -2,16 +2,12 @@
 title: Getting Started
 nav_order: 1
 has_children: true
+has_toc: false
 ---
 
 <div class="section-hero">
   <h1>Getting Started</h1>
   <p class="hero-desc">Everything you need to get TradeFlow up and running — from cloning the repo to building a native desktop application on your platform.</p>
-  <div class="hero-nav">
-    <a href="{{ site.baseurl }}/getting-started/installation">📦 Installation</a>
-    <a href="{{ site.baseurl }}/getting-started/desktop-app">🖥️ Desktop App</a>
-    <a href="{{ site.baseurl }}/getting-started/configuration">⚙️ Configuration</a>
-  </div>
 </div>
 
 <div class="section-grid">

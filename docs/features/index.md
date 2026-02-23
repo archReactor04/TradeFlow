@@ -2,17 +2,12 @@
 title: Features
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 
 <div class="section-hero">
   <h1>Features</h1>
   <p class="hero-desc">Detailed guides for every TradeFlow feature — from analytics dashboards and AI-powered coaching to multi-account management and bulk data import.</p>
-  <div class="hero-nav">
-    <a href="{{ site.baseurl }}/features/dashboard">📊 Dashboard</a>
-    <a href="{{ site.baseurl }}/features/trade-log">📋 Trade Log</a>
-    <a href="{{ site.baseurl }}/features/mentor-mode">🤖 Mentor Mode</a>
-    <a href="{{ site.baseurl }}/features/jesse-ai">🧠 Jesse AI</a>
-  </div>
 </div>
 
 <div class="section-grid">

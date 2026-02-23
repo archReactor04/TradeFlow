@@ -2,16 +2,12 @@
 title: Guides
 nav_order: 3
 has_children: true
+has_toc: false
 ---
 
 <div class="section-hero">
   <h1>Guides</h1>
   <p class="hero-desc">Step-by-step walkthroughs for common tasks — importing broker data, creating backups, and configuring AI-powered features.</p>
-  <div class="hero-nav">
-    <a href="{{ site.baseurl }}/guides/csv-import">📄 CSV Import</a>
-    <a href="{{ site.baseurl }}/guides/export-backup">💾 Export &amp; Backup</a>
-    <a href="{{ site.baseurl }}/guides/mentor-setup">🎓 Mentor Setup</a>
-  </div>
 </div>
 
 <div class="section-grid">
