@@ -92,24 +92,36 @@ nav_exclude: true
 
 <div class="section-grid">
   <a href="{{ site.baseurl }}/getting-started/installation" class="section-card">
-    <span class="card-icon">🚀</span>
-    <h3>Getting Started</h3>
-    <p>Installation, desktop app setup, and configuration.</p>
+    <div class="card-body">
+      <span class="card-icon">🚀</span>
+      <h3>Getting Started</h3>
+      <p>Installation, desktop app setup, and configuration options.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
   <a href="{{ site.baseurl }}/features/dashboard" class="section-card">
-    <span class="card-icon">⚡</span>
-    <h3>Features</h3>
-    <p>Dashboard, Trade Log, Accounts, Strategies, AI Mentor, and more.</p>
+    <div class="card-body">
+      <span class="card-icon">⚡</span>
+      <h3>Features</h3>
+      <p>Dashboard, Trade Log, Accounts, Strategies, AI Mentor, and more.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
   <a href="{{ site.baseurl }}/guides/csv-import" class="section-card">
-    <span class="card-icon">📖</span>
-    <h3>Guides</h3>
-    <p>CSV import, backup/restore, and mentor setup walkthroughs.</p>
+    <div class="card-body">
+      <span class="card-icon">📖</span>
+      <h3>Guides</h3>
+      <p>CSV import, backup/restore, and mentor setup walkthroughs.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
   <a href="{{ site.baseurl }}/technical/architecture" class="section-card">
-    <span class="card-icon">🔧</span>
-    <h3>Technical Reference</h3>
-    <p>Architecture, data storage internals, and Electron details.</p>
+    <div class="card-body">
+      <span class="card-icon">🔧</span>
+      <h3>Technical Reference</h3>
+      <p>Architecture, data storage internals, and Electron details.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
 </div>
 

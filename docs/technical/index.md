@@ -4,25 +4,39 @@ nav_order: 4
 has_children: true
 ---
 
-# Technical Reference
-
-Architecture internals, data storage design, and Electron desktop app details for contributors and power users.
-{: .fs-6 .fw-300 }
+<div class="section-hero">
+  <h1>Technical Reference</h1>
+  <p class="hero-desc">Architecture internals, data storage design, and Electron desktop details — for contributors, power users, and developers extending TradeFlow.</p>
+  <div class="hero-nav">
+    <a href="{{ site.baseurl }}/technical/architecture">🏗️ Architecture</a>
+    <a href="{{ site.baseurl }}/technical/data-storage">🗄️ Data Storage</a>
+    <a href="{{ site.baseurl }}/technical/electron">⚡ Electron</a>
+  </div>
+</div>
 
 <div class="section-grid">
   <a href="{{ site.baseurl }}/technical/architecture" class="section-card">
-    <span class="card-icon">🏗️</span>
-    <h3>Architecture</h3>
-    <p>Component structure, routing, state management, and build pipeline.</p>
+    <div class="card-body">
+      <span class="card-icon">🏗️</span>
+      <h3>Architecture</h3>
+      <p>Component structure, React Router, TanStack Query, state management, and Vite build pipeline.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
   <a href="{{ site.baseurl }}/technical/data-storage" class="section-card">
-    <span class="card-icon">🗄️</span>
-    <h3>Data Storage</h3>
-    <p>IndexedDB schema, Dexie.js ORM, and versioned migrations.</p>
+    <div class="card-body">
+      <span class="card-icon">🗄️</span>
+      <h3>Data Storage</h3>
+      <p>IndexedDB schema design, Dexie.js ORM usage, and versioned migration strategies.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
   <a href="{{ site.baseurl }}/technical/electron" class="section-card">
-    <span class="card-icon">⚡</span>
-    <h3>Electron</h3>
-    <p>Main process, preload scripts, packaging, and platform builds.</p>
+    <div class="card-body">
+      <span class="card-icon">⚡</span>
+      <h3>Electron</h3>
+      <p>Main process, preload scripts, IPC patterns, packaging config, and platform-specific builds.</p>
+    </div>
+    <div class="card-footer">Read More →</div>
   </a>
 </div>
