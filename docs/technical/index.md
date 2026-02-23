@@ -2,16 +2,12 @@
 title: Technical Reference
 nav_order: 4
 has_children: true
+has_toc: false
 ---
 
 <div class="section-hero">
   <h1>Technical Reference</h1>
   <p class="hero-desc">Architecture internals, data storage design, and Electron desktop details — for contributors, power users, and developers extending TradeFlow.</p>
-  <div class="hero-nav">
-    <a href="{{ site.baseurl }}/technical/architecture">🏗️ Architecture</a>
-    <a href="{{ site.baseurl }}/technical/data-storage">🗄️ Data Storage</a>
-    <a href="{{ site.baseurl }}/technical/electron">⚡ Electron</a>
-  </div>
 </div>
 
 <div class="section-grid">
