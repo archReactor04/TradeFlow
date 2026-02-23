@@ -38,7 +38,7 @@ nav_exclude: true
 <p class="section-heading">Documentation</p>
 
 <div class="section-grid">
-  <a href="{{ site.baseurl }}/getting-started/installation" class="section-card">
+  <a href="{{ site.baseurl }}/getting-started" class="section-card">
     <div class="card-body">
       <span class="card-icon">🚀</span>
       <h3>Getting Started</h3>
@@ -46,7 +46,7 @@ nav_exclude: true
     </div>
     <div class="card-footer">Read More →</div>
   </a>
-  <a href="{{ site.baseurl }}/features/dashboard" class="section-card">
+  <a href="{{ site.baseurl }}/features" class="section-card">
     <div class="card-body">
       <span class="card-icon">⚡</span>
       <h3>Features</h3>
@@ -54,7 +54,7 @@ nav_exclude: true
     </div>
     <div class="card-footer">Read More →</div>
   </a>
-  <a href="{{ site.baseurl }}/guides/csv-import" class="section-card">
+  <a href="{{ site.baseurl }}/guides" class="section-card">
     <div class="card-body">
       <span class="card-icon">📖</span>
       <h3>Guides</h3>
@@ -62,7 +62,7 @@ nav_exclude: true
     </div>
     <div class="card-footer">Read More →</div>
   </a>
-  <a href="{{ site.baseurl }}/technical/architecture" class="section-card">
+  <a href="{{ site.baseurl }}/technical" class="section-card">
     <div class="card-body">
       <span class="card-icon">🔧</span>
       <h3>Technical Reference</h3>
