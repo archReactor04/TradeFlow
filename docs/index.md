@@ -6,6 +6,7 @@ nav_exclude: true
 ---
 
 <div class="hero">
+  <img src="{{ site.baseurl }}/assets/img/favicon.png" alt="TradeFlow" class="hero-logo" />
   <h1 class="hero-title">TradeFlow</h1>
   <p class="hero-tagline">Your personal trading journal with AI-powered insights — built for serious traders who value privacy and performance.</p>
   <div class="btn-row">

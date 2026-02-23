@@ -1,0 +1,17 @@
+<style>
+  .site-title {
+    display: flex !important;
+    align-items: center;
+    gap: 0.55rem;
+  }
+  .site-title-logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    flex-shrink: 0;
+  }
+</style>
+<a href="{{ '/' | absolute_url }}" class="site-title lh-tight">
+  <img src="{{ site.baseurl }}/assets/img/favicon.png" alt="" class="site-title-logo" />
+  {{ site.title }}
+</a>
