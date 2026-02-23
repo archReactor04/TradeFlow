@@ -2,6 +2,15 @@
 //  TradeFlow – custom styles for just-the-docs
 // ═══════════════════════════════════════════════════════════════════════════
 
+// ── Wider content area (matches Doks proportions) ──────────────────────────
+.main-content {
+  max-width: 960px !important;
+}
+
+.main-content-wrap {
+  max-width: 960px !important;
+}
+
 // ── Hero ───────────────────────────────────────────────────────────────────
 .hero {
   padding: 3.5rem 1.5rem 2.5rem;
